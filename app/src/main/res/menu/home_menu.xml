@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/refresh_button"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/vaccine"
+        android:title="@string/vaccine_button"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/edit_columns"
+        android:title="@string/edit_columns"
+        app:showAsAction="collapseActionView">
+    </item>
+    <item
+        android:id="@+id/legends"
+        android:title="@string/legends_button"
+        app:showAsAction="collapseActionView">
+    </item>
+    <item
+        android:id="@+id/info"
+        android:title="@string/info_button"
+        app:showAsAction="collapseActionView">
+    </item>
+</menu>

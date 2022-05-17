@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="90sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/new_contagions"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="95sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/contagions_variation"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="105sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/current_contagions"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="90sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="90sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/hospitalized_with_symptoms"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="105sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/intensive_care"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="115sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/total_hospitalized"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="125sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/home_isolation"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="125sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/healed"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="95sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/buffers"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="95sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/total_positive_molecular_tests"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="180sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/total_positive_rapid_tests"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="155sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/total_molecular_tests"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="135sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/total_rapid_tests"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:padding="5sp"
+        android:minWidth="120sp"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

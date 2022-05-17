@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">RecyclerView_test</string>
+
+    <string name="title">Covid-19 (IT)</string>
+    <string name="activity_columns_title">Table columns</string>
+    <string name="name">Database Sars-CoV-2</string>
+    <string name="refresh_button">refresh</string>
+    <string name="style">STYLE</string>
+    <string name="legends_button">Colors legend</string>
+    <string name="info_button">Copyright info</string>
+    <string name="save_button">Save</string>
+
+    <string name="legends">COLORS LEGEND</string>
+    <string name="contagions_legends">New contagions legend</string>
+    <string name="deaths_legends">New deaths legend</string>
+    <string name="daily_legends">For days\' table:</string>
+    <string name="weekly_legends">For weeks\' table:</string>
+    <string name="monthly_legends">For months\' table:</string>
+
+    <string name="dark_green_daily_contagions">New cases &lt; 2000</string>
+    <string name="green_daily_contagions">4000 &gt; New cases &gt;= 2000</string>
+    <string name="yellow_daily_contagions">6000 &gt; New cases &gt;= 4000</string>
+    <string name="orange_daily_contagions">8000 &gt; New cases &gt;= 6000</string>
+    <string name="red_daily_contagions">New cases &gt; 8000</string>
+
+    <string name="dark_green_weekly_contagions">New cases &lt; 10000</string>
+    <string name="green_weekly_contagions">25000 &gt; New cases &gt;= 10000</string>
+    <string name="yellow_weekly_contagions">50000 &gt; New cases &gt;= 25000</string>
+    <string name="orange_weekly_contagions">100000 &gt; New cases &gt;= 50000</string>
+    <string name="red_weekly_contagions">New cases &gt; 100000</string>
+
+    <string name="dark_green_monthly_contagions">New cases &lt; 50000</string>
+    <string name="green_monthly_contagions">100000 &gt; New cases &gt;= 50000</string>
+    <string name="yellow_monthly_contagions">250000 &gt; New cases &gt;= 100000</string>
+    <string name="orange_monthly_contagions">500000 &gt; New cases &gt;= 250000</string>
+    <string name="red_monthly_contagions">New cases &gt; 500000</string>
+
+    <string name="dark_green_daily_deaths">New deaths &lt; 50</string>
+    <string name="green_daily_deaths">100 &gt; New deaths &gt;= 50</string>
+    <string name="yellow_daily_deaths">250 &gt; New deaths &gt;= 100</string>
+    <string name="orange_daily_deaths">500 &gt; New deaths &gt;= 250</string>
+    <string name="red_daily_deaths">New deaths &gt; 500</string>
+
+    <string name="dark_green_weekly_deaths">New deaths &lt; 400</string>
+    <string name="green_weekly_deaths">1500 &gt; New deaths &gt;= 400</string>
+    <string name="yellow_weekly_deaths">2500 &gt; New deaths &gt;= 1500</string>
+    <string name="orange_weekly_deaths">4000 &gt; New deaths &gt;= 2500</string>
+    <string name="red_weekly_deaths">New deaths &gt; 4000</string>
+
+    <string name="dark_green_monthly_deaths">New deaths &lt; 2000</string>
+    <string name="green_monthly_deaths">6000 &gt; New deaths &gt;= 2000</string>
+    <string name="yellow_monthly_deaths">10000 &gt; New deaths &gt;= 6000</string>
+    <string name="orange_monthly_deaths">14000 &gt; New deaths &gt;= 10000</string>
+    <string name="red_monthly_deaths">New deaths &gt; 14000</string>
+
+    <string name="days">DAYS</string>
+    <string name="weeks">WEEKS</string>
+    <string name="months">MONTHS</string>
+
+    <string name="date_title">Date</string>
+    <string name="new_contagions_title">New cases</string>
+    <string name="contagions_variation_title">Cases variation</string>
+    <string name="contagions_title">Total cases</string>
+    <string name="buffers_title">New buffers</string>
+    <string name="home_isolation_title">Home isolation</string>
+    <string name="hospitalized_with_symptoms_title">Hospitalized</string>
+    <string name="intensive_care_title">Intensive care</string>
+    <string name="total_hospitalized_title">Total hospitalized</string>
+    <string name="death_title">New deaths</string>
+    <string name="healed_title">New healed</string>
+    <string name="total_positive_molecular_test_title">Total positive molecular test</string>
+    <string name="total_positive_rapid_test_title">Total positive rapid test</string>
+    <string name="molecular_test_buffers_title">Total molecular test</string>
+    <string name="rapid_test_buffers_title">Total rapid test</string>
+
+    <string name="no_connection">Unable to reach data. Please, try to refresh.</string>
+    <string name="edit_columns">Edit columns…</string>
+    <string name="theme">Paint according to…</string>
+    <string name="empty"> </string>
+    <string name="new_contagions_theme">New contagions</string>
+    <string name="deaths_theme">Deaths</string>
+
+    <string name="date_column">Date</string>
+    <string name="new_cases_column">New cases</string>
+    <string name="cases_variation_column">Cases variation</string>
+    <string name="total_cases_column">Total cases</string>
+    <string name="new_deaths_column">New deaths</string>
+    <string name="hospitalized_column">Hospitalized</string>
+    <string name="intensive_care_column">Intensive care</string>
+    <string name="total_hospitalized_column">Total hospitalized</string>
+    <string name="home_isolation_column">Home isolation</string>
+    <string name="new_healed_column">New healed</string>
+    <string name="new_buffers_column">New buffers</string>
+    <string name="total_positive_molecular_test_column">Total positive molecular test</string>
+    <string name="total_positive_rapid_test_column">Total positive rapid test</string>
+    <string name="total_molecular_test_column">Total molecular test</string>
+    <string name="total_rapid_test_column">Total rapid test</string>
+
+    <string name="date_column_description">Date to which the reported data refer.</string>
+    <string name="new_cases_column_description">New cases of positivity calculated between the reported date and the previous one.</string>
+    <string name="cases_variation_column_description">Variation in the number of infections calculated between the reported date and the previous one (considering new deaths and new recoveries).</string>
+    <string name="total_cases_column_description">Total cases of positivity calculated as of the reported date.</string>
+    <string name="new_deaths_column_description">New deaths calculated between the reported date and the previous one.</string>
+    <string name="hospitalized_column_description">Hospitalized with symptoms calculated as of the date reported.</string>
+    <string name="intensive_care_column_description">Occupied intensive care units calculated at the reported date.</string>
+    <string name="total_hospitalized_column_description">Total hospitalized calculated as of the reported date.</string>
+    <string name="home_isolation_column_description">Cases of home isolation calculated as of the date reported.</string>
+    <string name="new_healed_column_description">New ascertained healings calculated between the reported date and the previous one.</string>
+    <string name="new_buffers_column_description">New swabs made calculated between the reported date and the previous one.</string>
+    <string name="total_positive_molecular_test_column_description">Total positive molecular tests since the start of the pandemic.</string>
+    <string name="total_positive_rapid_test_column_description">Total positive rapid tests since the start of the pandemic.</string>
+    <string name="total_molecular_test_column_description">Total molecular tests since the start of the pandemic.</string>
+    <string name="total_rapid_test_column_description">Total rapid tests since the start of the pandemic.</string>
+
+    <string name="table_columns">Table columns</string>
+
+    <string name="vaccines_title">VACCINES REPORT (ITALY):</string>
+    <string name="vaccine_button">VACCINES</string>
+    <string name="vaccine_date">Up to: </string>
+    <string name="administered_doses">Administered doses:</string>
+    <string name="one_dose">At least with one dose:</string>
+    <string name="complete_cycle">With three doses:</string>
+    <string name="vaccine_healed">Healed for at least six months:</string>
+    <string name="per_age">Per age:</string>
+    <string name="with_three_doses">With 3 doses</string>
+    <string name="with_one_or_two_doses">At least 1 dose</string>
+    <string name="over_80">over 80</string>
+    <string name="_70_79">70 – 79</string>
+    <string name="_60_69">60 – 69</string>
+    <string name="_50_59">50 – 59</string>
+    <string name="_40_49">40 – 49</string>
+    <string name="_30_39">30 – 39</string>
+    <string name="_20_29">20 – 29</string>
+    <string name="_12_19">12 – 19</string>
+    <string name="_5_11">5 – 11</string>
+    <string name="per_region">Per region:</string>
+    <string name="abruzzo">Abruzzo</string>
+    <string name="basilicata">Basilicata</string>
+    <string name="calabria">Calabria</string>
+    <string name="campania">Campania</string>
+    <string name="emilia_romagna">Emilia-Romag.</string>
+    <string name="friuli_venezia_giulia">Friuli V.G.</string>
+    <string name="lazio">Lazio</string>
+    <string name="liguria">Liguria</string>
+    <string name="lombardia">Lombardia</string>
+    <string name="marche">Marche</string>
+    <string name="molise">Molise</string>
+    <string name="p_a_bolzano">P.A.Bolzano</string>
+    <string name="piemonte">Piemonte</string>
+    <string name="puglia">Puglia</string>
+    <string name="sardegna">Sardegna</string>
+    <string name="sicilia">Sicilia</string>
+    <string name="toscana">Toscana</string>
+    <string name="umbria">Umbria</string>
+    <string name="valle_d_aosta">V. d\'Aosta</string>
+    <string name="veneto">Veneto</string>
+</resources>

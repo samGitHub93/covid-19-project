@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecyclerView_test</string>
+
+    <string name="title">Covid-19 (IT)</string>
+    <string name="activity_columns_title">Colonne della tabella</string>
+    <string name="name">Database Sars-CoV-2</string>
+    <string name="refresh_button">refresh</string>
+    <string name="style">STYLE</string>
+    <string name="legends_button">Legenda colori</string>
+    <string name="info_button">Copyright info</string>
+    <string name="save_button">Salva</string>
+
+    <string name="legends">LEGENDA DEI COLORI</string>
+    <string name="contagions_legends">Legenda per i nuovi contagi</string>
+    <string name="deaths_legends">Legenda per i nuovi decessi</string>
+    <string name="daily_legends">Giorni:</string>
+    <string name="weekly_legends">Settimane:</string>
+    <string name="monthly_legends">Mesi:</string>
+
+    <string name="dark_green_daily_contagions">Nuovi casi &lt; 2000</string>
+    <string name="green_daily_contagions">4000 &gt; Nuovi casi &gt;= 2000</string>
+    <string name="yellow_daily_contagions">6000 &gt; Nuovi casi &gt;= 4000</string>
+    <string name="orange_daily_contagions">8000 &gt; Nuovi casi &gt;= 6000</string>
+    <string name="red_daily_contagions">Nuovi casi &gt; 8000</string>
+
+    <string name="dark_green_weekly_contagions">Nuovi casi &lt; 10000</string>
+    <string name="green_weekly_contagions">25000 &gt; Nuovi casi &gt;= 10000</string>
+    <string name="yellow_weekly_contagions">50000 &gt; Nuovi casi &gt;= 25000</string>
+    <string name="orange_weekly_contagions">100000 &gt; Nuovi casi &gt;= 50000</string>
+    <string name="red_weekly_contagions">Nuovi casi &gt; 100000</string>
+
+    <string name="dark_green_monthly_contagions">Nuovi casi &lt; 50000</string>
+    <string name="green_monthly_contagions">100000 &gt; Nuovi casi &gt;= 50000</string>
+    <string name="yellow_monthly_contagions">250000 &gt; Nuovi casi &gt;= 100000</string>
+    <string name="orange_monthly_contagions">500000 &gt; Nuovi casi &gt;= 250000</string>
+    <string name="red_monthly_contagions">Nuovi casi &gt; 500000</string>
+
+    <string name="dark_green_daily_deaths">Nuovi decessi &lt; 50</string>
+    <string name="green_daily_deaths">100 &gt; Nuovi decessi &gt;= 50</string>
+    <string name="yellow_daily_deaths">250 &gt; Nuovi decessi &gt;= 100</string>
+    <string name="orange_daily_deaths">500 &gt; Nuovi decessi &gt;= 250</string>
+    <string name="red_daily_deaths">Nuovi decessi &gt; 500</string>
+
+    <string name="dark_green_weekly_deaths">Nuovi decessi &lt; 400</string>
+    <string name="green_weekly_deaths">1500 &gt; Nuovi decessi &gt;= 400</string>
+    <string name="yellow_weekly_deaths">2500 &gt; Nuovi decessi &gt;= 1500</string>
+    <string name="orange_weekly_deaths">4000 &gt; Nuovi decessi &gt;= 2500</string>
+    <string name="red_weekly_deaths">Nuovi decessi &gt; 4000</string>
+
+    <string name="dark_green_monthly_deaths">Nuovi decessi &lt; 2000</string>
+    <string name="green_monthly_deaths">6000 &gt; Nuovi decessi &gt;= 2000</string>
+    <string name="yellow_monthly_deaths">10000 &gt; Nuovi decessi &gt;= 6000</string>
+    <string name="orange_monthly_deaths">14000 &gt; Nuovi decessi &gt;= 10000</string>
+    <string name="red_monthly_deaths">Nuovi decessi &gt; 14000</string>
+
+    <string name="days">GIORNI</string>
+    <string name="weeks">SETTIMANE</string>
+    <string name="months">MESI</string>
+
+    <string name="date_title">Data</string>
+    <string name="new_contagions_title">Nuovi casi</string>
+    <string name="contagions_variation_title">Variazione casi</string>
+    <string name="contagions_title">Casi totali</string>
+    <string name="buffers_title">Tamponi</string>
+    <string name="home_isolation_title">Isolamento dom.</string>
+    <string name="hospitalized_with_symptoms_title">Ospedalizzati</string>
+    <string name="intensive_care_title">Terapia intens.</string>
+    <string name="total_hospitalized_title">Totale ospedaliz.</string>
+    <string name="death_title">Decessi</string>
+    <string name="healed_title">Guarig.</string>
+    <string name="total_positive_molecular_test_title">Test molecolari positivi tot.</string>
+    <string name="total_positive_rapid_test_title">Test rapidi positivi tot.</string>
+    <string name="molecular_test_buffers_title">Test molecolari tot.</string>
+    <string name="rapid_test_buffers_title">Test rapidi tot.</string>
+
+    <string name="no_connection">Nessuna connessione.</string>
+    <string name="edit_columns">Modifica tabella…</string>
+    <string name="theme">Colora per…</string>
+    <string name="empty"> </string>
+    <string name="new_contagions_theme">Nuovi casi</string>
+    <string name="deaths_theme">Decessi</string>
+
+    <string name="date_column">Data</string>
+    <string name="new_cases_column">Nuovi casi</string>
+    <string name="cases_variation_column">Variazione casi</string>
+    <string name="total_cases_column">Casi totali</string>
+    <string name="new_deaths_column">Decessi</string>
+    <string name="hospitalized_column">Ospedalizzati</string>
+    <string name="intensive_care_column">Terapia intensiva</string>
+    <string name="total_hospitalized_column">Totale ospedalizzati</string>
+    <string name="home_isolation_column">Isolamento domiciliare</string>
+    <string name="new_healed_column">Guarigioni</string>
+    <string name="new_buffers_column">Tamponi</string>
+    <string name="total_positive_molecular_test_column">Test molecolari positivi totali</string>
+    <string name="total_positive_rapid_test_column">Test rapidi positivi totali</string>
+    <string name="total_molecular_test_column">Test molecolari totali</string>
+    <string name="total_rapid_test_column">Test rapidi totali</string>
+
+    <string name="date_column_description">Data alla quale si riferiscono i dati riportati.</string>
+    <string name="new_cases_column_description">Nuovi casi di positività calcolati tra la data riportata e quella precedente.</string>
+    <string name="cases_variation_column_description">Variazione del numero dei contagi calcolati tra la data riportata e quella precedente (considerando i nuovi decessi e le nuove guarigioni).</string>
+    <string name="total_cases_column_description">Casi totali di positività calcolati alla data riportata.</string>
+    <string name="new_deaths_column_description">Nuovi decessi calcolati tra la data riportata e quella precedente.</string>
+    <string name="hospitalized_column_description">Ospedalizzati con sintomi calcolati alla data riportata.</string>
+    <string name="intensive_care_column_description">Terapie intensive occupate calcolate alla data riportata.</string>
+    <string name="total_hospitalized_column_description">Totale ospedalizzati calcolati alla data riportata.</string>
+    <string name="home_isolation_column_description">Casi di isolamento domiciliare calcolati alla data riportata.</string>
+    <string name="new_healed_column_description">Nuove guarigioni accertate calcolate tra la data riportata e quella precedente.</string>
+    <string name="new_buffers_column_description">Nuovi tamponi effettuati calcolati tra la data riportata e quella precedente.</string>
+    <string name="total_positive_molecular_test_column_description">Test molecolari positivi totali dall\'inizio della pandemia.</string>
+    <string name="total_positive_rapid_test_column_description">Test rapidi positivi totali dall\'inizio della pandemia.</string>
+    <string name="total_molecular_test_column_description">Test molecolari totali dall\'inizio della pandemia.</string>
+    <string name="total_rapid_test_column_description">Test rapidi totali dall\'inizio della pandemia.</string>
+
+    <string name="table_columns">Colonne della tabella</string>
+
+    <string name="vaccines_title">REPORT VACCINI (ITALIA)</string>
+    <string name="vaccine_button">VACCINI</string>
+    <string name="vaccine_date">Aggiornato al: </string>
+    <string name="administered_doses">Totale somministrazioni:</string>
+    <string name="one_dose">Totale con almeno una dose:</string>
+    <string name="complete_cycle">Totale con ciclo vacc. completo:</string>
+    <string name="vaccine_healed">Totale guariti da massimo 6 mesi:</string>
+    <string name="per_age">Per età:</string>
+    <string name="with_three_doses">Con 3 dosi</string>
+    <string name="with_one_or_two_doses">Almeno 1 dose</string>
+    <string name="over_80">over 80</string>
+    <string name="_70_79">70 – 79</string>
+    <string name="_60_69">60 – 69</string>
+    <string name="_50_59">50 – 59</string>
+    <string name="_40_49">40 – 49</string>
+    <string name="_30_39">30 – 39</string>
+    <string name="_20_29">20 – 29</string>
+    <string name="_12_19">12 – 19</string>
+    <string name="_5_11">5 – 11</string>
+    <string name="per_region">Per regione:</string>
+    <string name="abruzzo">Abruzzo</string>
+    <string name="basilicata">Basilicata</string>
+    <string name="calabria">Calabria</string>
+    <string name="campania">Campania</string>
+    <string name="emilia_romagna">Emilia-Romag.</string>
+    <string name="friuli_venezia_giulia">Friuli V.G.</string>
+    <string name="lazio">Lazio</string>
+    <string name="liguria">Liguria</string>
+    <string name="lombardia">Lombardia</string>
+    <string name="marche">Marche</string>
+    <string name="molise">Molise</string>
+    <string name="p_a_bolzano">P.A.Bolzano</string>
+    <string name="piemonte">Piemonte</string>
+    <string name="puglia">Puglia</string>
+    <string name="sardegna">Sardegna</string>
+    <string name="sicilia">Sicilia</string>
+    <string name="toscana">Toscana</string>
+    <string name="umbria">Umbria</string>
+    <string name="valle_d_aosta">V. d\'Aosta</string>
+    <string name="veneto">Veneto</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mvvm_architecture_test">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/covid_img"
+        android:label="@string/name"
+        android:roundIcon="@mipmap/covid_img_round"
+        android:supportsRtl="true"
+        android:theme="@style/MVVM_architecture_test">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title"
+            android:exported="true"
+            android:configChanges="uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColumnSettingActivity"
+            android:label="@string/activity_columns_title">
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/legends">
+        </activity>
+        <activity
+            android:name=".VaccineActivity"
+            android:label="@string/vaccines_title">
+        </activity>
+    </application>
+
+</manifest>
