@@ -10,4 +10,6 @@
     <color name="yellow">#FFFFBB</color>
     <color name="orange">#FFBB77</color>
     <color name="red">#FF7777</color>
+    <color name="dark_blue">#004466</color>
+    <color name="blue">#0088AA</color>
 </resources>
